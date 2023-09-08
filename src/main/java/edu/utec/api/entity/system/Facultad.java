@@ -1,4 +1,4 @@
-package edu.utec.api.entity;
+package edu.utec.api.entity.system;
 
 import jakarta.persistence.*;
 

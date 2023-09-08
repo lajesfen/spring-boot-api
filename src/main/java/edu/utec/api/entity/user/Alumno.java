@@ -1,4 +1,4 @@
-package edu.utec.api.entity;
+package edu.utec.api.entity.user;
 
 import jakarta.persistence.*;
 

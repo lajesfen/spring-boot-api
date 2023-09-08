@@ -1,18 +1,18 @@
-package edu.utec.api.controller;
+package edu.utec.api.controller.system;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import edu.utec.api.entity.Alumno;
-import edu.utec.api.repository.AlumnoRepository;
+import edu.utec.api.entity.user.Alumno;
+import edu.utec.api.repository.user.AlumnoRepository;
 
 import java.util.List;
 
 @RestController
 @RequestMapping("/alumnos")
-public class CursoController {
+public class FacultadController {
 
     @Autowired
     private AlumnoRepository alumnoRepository;
