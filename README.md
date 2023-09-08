@@ -7,7 +7,7 @@
 
 ## Ejemplos
 
-### GET `/cursos/`
+### GET `/facultades/`
 ```json
 {
     "id": "FC1",
@@ -29,7 +29,7 @@
 {
     "id": "CS2031",
     "nombre": "Programación - 1.01",
-    "profesor_id": "A0031", //No implementado (Modelo similar a Alumno)
+    "profesor_id": "50031", //No implementado (Modelo similar a Alumno)
     "max_alumnos": 20,
     "lista_alumnos": [
         "202220401",
