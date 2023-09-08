@@ -1,0 +1,19 @@
+//CLASE ESTUDIANTE
+
+{
+    "nombre": "Nombre de Alumno",
+    "id": "202220439",
+    "facultad": "FC1",
+    "cursos": [
+        "CS2031", 
+        "CS2032",
+        "CS2033"
+    ]
+}
+
+// Endpoints:
+// - GET /alumnos                 -- Return alumnos
+// - GET /alumnos/{id}            -- Return alumnos con ID {id}
+// - POST, PUT, PATCH, DELETE 
+
+// - GET, POST, PUT, PATCH, DELETE /alumnos/{id}/cursos?curso={ID}     -- Modificar cursos

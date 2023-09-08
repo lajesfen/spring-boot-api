@@ -1,0 +1,23 @@
+//CLASE FACULTAD
+
+{
+    "nombre_facultad": "Facultad 1",
+    "id": "FC1",
+    "cursos": [
+        "CS2031",
+        "CS2032",
+        "CS2033"
+    ],
+    "estudiantes": [
+        "20220401",
+        "20220404"
+    ]
+}
+
+// Endpoints:
+// - GET /facultades             -- Return facultades
+// - GET /facultades/{id}        -- Return facultades con ID {id}
+// - POST, PUT, PATCH, DELETE 
+
+// - GET, POST, PUT, PATCH, DELETE /facultades/{id}/cursos?curso={ID}               -- Modificar cursos
+// - GET, POST, PUT, PATCH, DELETE /facultades/{id}/estudiantes?estudiante={ID}     -- Modificar estudiantes
